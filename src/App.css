@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+}
+
+.logo-img{
+   height: 48px;
+  width: 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 72px;
+  font-size: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+:root {
+  --red: #d01c28;
+  --gray: #2e2e2e;
+
+}
+button{
+  all: unset;
+  padding: 6px 16px;
+  background: var( --red);
+  height: 32px;
+  color: white;
+  font-weight: 500px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+.hero {
+  width: 595;
+  height: 613;
+  gap: 36px;
+  opacity: 1;
+}
+h1{
+padding-left: 150px;
+padding-top: 25px;
+font-family: Poppins;
+line-height: 102px;
+font-weight: 800;
+font-style: ExtraBold;
+font-size: 108px;
+letter-spacing: 0%;
+}
+
+p{
+width: 404;
+height: 91;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 170px;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+letter-spacing: 0%;
+}
+
+.amazon-logo{
+  height: 32px;
+  width: 32px;
+  padding-left: 180px;
+  padding-top: 15px;
+  margin-right: 25px;
+}
+.flipkart-logo{
+  height: 32px;
+  width: 32px;
+}
+
+.hero-btn{
+  display: flex;
+  padding-left: 170px;
+}
+.shop{
+  height: 30px;
+  width: 120px;
+  text-align: center;
+  margin-right: 20px;
+  font-size: 24px;
+  border: 2px solid black;
+}
+.category{
+  height: 30px;
+  width: 120px;
+  text-align: center;
+  font-size: 24px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+p{
+  font-size: 16px;
+}
+
+.hero-shoes{
+  width: 950px;
+  height: 700px;
+  display: inline;
+  position: absolute;
+  top: 60px;
+  right: 10px;
+}
